@@ -38,7 +38,6 @@ def consecutive_pow(lim):
             sum+=s[y]
             if sum>lim:
                 continue
-            #t.update(x,y,sum)
             c.append(sum)
     return set(c).difference(s)
 
