@@ -1,4 +1,4 @@
-# Project Euler 144, solved in  0.019612 seconds runtime.
+# Project Euler 144 - Investigating multiple reflections of a laser beam, solved in  0.019612 seconds runtime.
 # Exercise: https://projecteuler.net/problem=144
 # Synopsis: https://dannythedev.myportfolio.com/project-euler-exercise-144
 
