@@ -29,8 +29,6 @@ def isStrongHarshad(n):
         return isPrime(n/sum)
     return False
 
-
-
 def rightTrunctableHarshadList(l,n,lim):
     if n > lim:
         return l
