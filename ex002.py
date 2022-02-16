@@ -1,4 +1,4 @@
-# Project Euler 2 - Multiples of 3 or 5. Solved in 6.989999999999774e-05 seconds runtime.
+# Project Euler 2 - Even Fibonacci numbers. Solved in 6.989999999999774e-05 seconds runtime.
 # Exercise: https://projecteuler.net/problem=2
 
 import timeit
