@@ -1,3 +1,7 @@
+# Project Euler 144, solved in  0.019612 seconds runtime.
+# Exercise: https://projecteuler.net/problem=144
+# Synopsis: https://dannythedev.myportfolio.com/project-euler-exercise-144
+
 from decimal import *
 import math
 import timeit
