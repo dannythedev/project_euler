@@ -2,8 +2,6 @@ from decimal import *
 import math
 import timeit
 start = timeit.default_timer()
-
-
 getcontext()
 
 class Point:
