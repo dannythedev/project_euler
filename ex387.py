@@ -51,7 +51,6 @@ def RightTrunctubleList(lim):
 
 def ex367():
     l = RightTrunctubleList(10**13)
-
     sum = 0
     d = [1,3,7,9]  #Anything that ends with any even-digit or 5 is surely divisible.
     for x in l:
@@ -64,6 +63,5 @@ def ex367():
     return sum
 
 print(ex367())
-
 stop = timeit.default_timer()
 print('Time: ', stop - start,"seconds.")
