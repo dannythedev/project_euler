@@ -1,4 +1,4 @@
-# Project Euler 1 - Multiples of 3 or 5.
+# Project Euler 1 - Multiples of 3 or 5. Solved in 0.00020090000000000385 seconds runtime.
 # Exercise: https://projecteuler.net/problem=1
 
 import timeit
