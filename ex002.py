@@ -1,9 +1,6 @@
 # Project Euler 2 - Even Fibonacci numbers. Solved in 6.989999999999774e-05 seconds runtime.
 # Exercise: https://projecteuler.net/problem=2
 
-import timeit
-start = timeit.default_timer()
-
 def ex2():
     l=[0,1,2]
     n,p,sum = 0,3,2
@@ -19,5 +16,3 @@ def ex2():
     return 0
 
 print(ex2())
-stop = timeit.default_timer()
-print('Time: ', stop - start,"seconds.")
