@@ -2,7 +2,7 @@
 # Exercise: https://projecteuler.net/problem=7
 
 def ex7():
-    # Prime number theorem suggests that number of primes below x, (lim) equals to n/ln(n),
+    # Prime number theorem suggests that number of primes below x, (lim) approximately equals to n/ln(n),
     # then we isolate n and we get -W(1/-lim)*lim. W is for Lambert's W function.
     # For lim=10001, n = -W(1/-10001)*10001 equals approximately 116683.
     lim,n = 10001,116683 
