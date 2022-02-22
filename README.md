@@ -1,1 +1,1 @@
-```Repository for all documented Project Euler exersices I have solved.```
+```Repository for all documented Project Euler exercises I have solved.```
