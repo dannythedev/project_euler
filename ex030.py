@@ -14,3 +14,5 @@ def ex30():
         if sum_of_power_of_digits(x,5):
             sum+=x
     return sum
+
+print(ex30())
