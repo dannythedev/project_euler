@@ -29,7 +29,7 @@ def isPrime(n):
 # b must be a positive integer and a prime number since for each n=0 there must be n^2+n+b = b = prime.
 def ex27():
     max_c,max = 0,0
-    pl=prime_list(1000) #since be must be >1000.
+    pl=prime_list(1000) #since b is >1000.
     for a in range(-1000,1000):
         for b in pl:
             n=0
