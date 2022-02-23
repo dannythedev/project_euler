@@ -1,4 +1,4 @@
-# Project Euler 24, Lexicographic permutations. Solved in 611.067 seconds runtime.
+# Project Euler 24, Lexicographic permutations. Solved in 11.3963 seconds runtime.
 # Exercise: https://projecteuler.net/problem=24
 
 def permute(s, i = 0,w=[]):
