@@ -17,7 +17,7 @@ def is_curious_fraction(n,d):
     if n2=='' or d2=='': return False
     return int(n2)/int(d2)==n/d
 
-#gets fraction n/d, returns simplified fraction.
+#gets fraction n/d, returns the simplified fraction.
 def simplify(n,d):
     i=2
     m = min(n,d)+1
