@@ -19,11 +19,9 @@ def prime_list(n):
 
 def is_trunctable_prime(n):
     s=str(n)
-    k=len(s)-1
     s_right=s
     s_left=s
-    #left
-    for x in range(0,k):
+    for x in range(0,len(s)-1):
         s_left,s_right = s_left[:-1], s_right[1:]
         if not (isPrime(int(s_left)) and isPrime(int(s_right))):
             return False
