@@ -1,6 +1,9 @@
 # Project Euler 44 - Pentagon numbers. Solved in 10.504 seconds runtime.
 # Exercise: https://projecteuler.net/problem=44
 
+def pentagonal_sequence(n):
+    return n*(3*n-1)/2
+
 def pentagonal_list(lim,l=[]):
     for x in range(1,lim):
         l.append(pentagonal_sequence(x))
