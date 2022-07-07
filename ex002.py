@@ -1,7 +1,7 @@
 # Project Euler 2 - Even Fibonacci numbers. Solved in 4.22e-05 seconds runtime.
 # Exercise: https://projecteuler.net/problem=2
 
-# 08/07/22 - current solution, Solved in 4.22e-05 seconds runtime. If lim=10*10000 then runtime becomes 0.550152 seconds.
+# 08/07/22 - current solution, 4.22e-05 seconds runtime. If lim=10*10000 then runtime becomes 0.550152 seconds.
 def fib(lim):
     n1,n2=0,1
     yield n1
@@ -17,7 +17,7 @@ def ex2(lim=4000000):
 
 print(ex2())
 
-# 17/02/22 - old solution, Solved in 6.06e-05 seconds runtime. If lim=10*410000 then runtime becomes 7.97301623 seconds.
+# 17/02/22 - old solution, 6.06e-05 seconds runtime. If lim=10*410000 then runtime becomes 7.97301623 seconds.
 def ex2(lim=4000000):
     l=[0,1,2]
     n,p,sum = 0,3,2
