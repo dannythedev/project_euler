@@ -2,7 +2,7 @@
 # Exercise: https://projecteuler.net/problem=2
 
 # 08/07/22 - current solution, Solved in 4.22e-05 seconds runtime. If lim=10*10000 then runtime becomes 0.550152 seconds.
-def fib(lim=4000000):
+def fib(lim):
     n1,n2=0,1
     yield n1
     yield n2
@@ -11,8 +11,8 @@ def fib(lim=4000000):
         n1, n2 = n2, n1+n2
         yield n1+n2 if (n1+n2)%2==0 else 0
 
-def ex2():
-    a = fib()
+def ex2(lim=4000000):
+    a = fib(lim)
     return sum(a)
 
 print(ex2())
