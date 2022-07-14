@@ -4,9 +4,6 @@
 # 08/07/22 - current solution, 4.22e-05 seconds runtime. If lim=10*10000 then runtime becomes 0.550152 seconds.
 def fib(lim):
     n1,n2=0,1
-    yield n1
-    yield n2
-    yield n1+n2
     while (n1+n2<lim):
         n1, n2 = n2, n1+n2
         yield n1+n2 if (n1+n2)%2==0 else 0
