@@ -8,15 +8,16 @@ def s(n,c=0):
         c+=1
         yield i
 
-def size(n):
-    return sum([x for x in range(0,n)])
+def m_seq(lim):
+    a = list(s(lim))
+    return [(a[i]*a[j], i, j) for i in range(0, lim) for j in range(i + 1, lim)]
 
-def m(n):
-    a = list(s(n-1))
-    for i in range(n):
-        for j in range(i + 1, n):
-            yield a[i]*a[j]
+
+# def size(n):
+#     return sum([x for x in range(0, n)])
 
 def ex793(n):
-    a = sorted(m(n))
-    return next(itertools.islice(a, int(size(n)/2), None))
+    m = m_seq(n)
+    return sorted(m, key=lambda tup: tup[0])[len(m)//2]
+
+print(ex793(103))
