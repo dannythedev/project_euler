@@ -1,23 +1,17 @@
-# Project Euler 4 - Largest palindrome product. Solved in 0.169 seconds runtime.
+# Project Euler 4 - Largest palindrome product. Solved in 0.079 seconds runtime.
 # Exercise: https://projecteuler.net/problem=4
 
-def palindrome_set(lim):
-    pol,x = 0,1
-    l = {1, 2, 3, 4, 5, 6, 7, 8, 9}
-    while pol <= lim:
+def palindrome(min, max, l=[]):
+    ran = range(min,max)
+    digit = [str(d) for d in range(0, 10)]+['']
+    for x in ran:
         s = str(x)
-        pol = int(s + s[::-1])
-        x += 1
-        l.add(pol)
-        if pol * 10 <= lim:
-            for d in range(0, 10):
-                pol = int(s + str(d) + s[::-1])
-                l.add(pol)
-    return set(l)
+        l += [int(s + d + s[::-1]) for d in digit]
+    return l
 
-def product_of_two():
-    return set([p1*p2 for p1 in range(100,1000) for p2 in range(100,1000) if p1!=p2])
+def prod(min,max):
+    return set([p1*p2 for p1 in range(min,max) for p2 in range(min, p1)])
+
 def ex4():
-    return max(product_of_two().intersection(palindrome_set(1000**2)))
-
-print(ex4())
+    t_min, t_max = 100, 1000
+    return max(prod(t_min,t_max).intersection(palindrome(t_min, t_max)))
