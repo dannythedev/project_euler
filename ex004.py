@@ -1,7 +1,7 @@
 # Project Euler 4 - Largest palindrome product. Solved in 0.079 seconds runtime.
 # Exercise: https://projecteuler.net/problem=4
 
-def palindrome(min, max, l=[]):
+def pal(min, max, l=[]):
     ran = range(min,max)
     digit = [str(d) for d in range(0, 10)]+['']
     for x in ran:
@@ -14,4 +14,4 @@ def prod(min,max):
 
 def ex4():
     t_min, t_max = 100, 1000
-    return max(prod(t_min,t_max).intersection(palindrome(t_min, t_max)))
+    return max(prod(t_min,t_max).intersection(pal(t_min, t_max)))
