@@ -1,6 +1,7 @@
 ## [*Problem 221 - Alexandrian Integers.*](https://projecteuler.net/problem=221 "Go to problem page.")
 
-Since $A$ is the product of three integers, then it is a composite number and cannot be prime.
+$\bullet\text{ }$ Since $A$ is the product of three integers, then it is a composite number and cannot be prime.  
+$\bullet\text{ }$ Since $A$ is a positive integer, than at least one integer $q,p,r$ has to be positive. This also means that either $p,q<0, r>0$ or $p,q,r>0$. We can now deduce that $p\cdot q$ is a positive composite number.
 
 $A = p \cdot q \cdot r, \text{ }\text{ }\text{ } \dfrac{1}{A} = \dfrac{1}{p} + \dfrac{1}{q} + \dfrac{1}{r}$  
   
