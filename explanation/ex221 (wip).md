@@ -16,7 +16,10 @@ $1 - p \cdot r = q \cdot(r +  p) \rightarrow$
 
 $\dfrac{1 - p \cdot r}{(r +  p)} = q$  
   
-$A = p \cdot \dfrac{1 - p \cdot r}{(r +  p)} \cdot r$
+$A = p \cdot \dfrac{1 - p \cdot r}{(r +  p)} \cdot r \rightarrow$  
+  
+$A = \dfrac{pr \cdot(1 - pr)}{(r +  p)}$
+  
 
 ```python
 Text
