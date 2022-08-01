@@ -15,7 +15,8 @@ $1 = q \cdot(r +  p) + p \cdot r \rightarrow$
 
 $1 - p \cdot r = q \cdot(r +  p) \rightarrow$
 
-$\dfrac{1 - p \cdot r}{(r +  p)} = q$  
+$\dfrac{1 - p \cdot r}{(r +  p)} = q$ , Since $1 - p\cdot r$, then one of the numbers $p,r$ has to be negative.
+But the above specifies that either $p,q,r>0$, or $p,q>0, r<0$, so this means that only $p,r<0, q>0$.
   
 $A = p \cdot \dfrac{1 - p \cdot r}{(r +  p)} \cdot r \rightarrow$  
   
