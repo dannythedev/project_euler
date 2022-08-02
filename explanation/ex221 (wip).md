@@ -13,6 +13,7 @@ $1 = q \cdot(r +  p) + p \cdot r \rightarrow$
 $1 - p \cdot r = q \cdot(r +  p) \rightarrow$  
   
 $\dfrac{1 - p \cdot r}{(r +  p)} = q$.  
+  
 We can assume $q>0$ since we are given $A>0$, this is because $A = p \cdot q \cdot r\text{ } \rightarrow\text{ }(p,r<0\wedge\text{ }q>0)\text{ }\vee\text{ }(p,q,r>0)$.  
 Because $q>0$ then for any $n,d$ that make $q=\dfrac{n}{d}$ there must be $n\wedge\text{ }d>0\vee\text{ }n\wedge\text{ }d<0$.  
 This means:    
@@ -36,6 +37,7 @@ $A = p \cdot \dfrac{1 - p \cdot r}{(r +  p)} \cdot r \rightarrow$
   
 $A = \dfrac{pr \cdot(1 - pr)}{(r +  p)}$
   
+We also know that $A$ is an integer, so $pr \cdot(1 - pr) \equiv 0 \pmod{r+p}$ must occur. 
 
 ```python
 Text
