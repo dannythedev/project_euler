@@ -21,10 +21,14 @@ $(2)\text{ } (1 - p \cdot r<0)\wedge\text{ }(r + p<0)$.
   
 Since $p,r$ are integers, then   
 $(1)$ $(1 - p \cdot r>0) \leftrightarrow (1 > p \cdot r) \text{ }\leftrightarrow\text{ } (p>0 \wedge \text{ } r<0) \vee (p<0 \wedge \text{ } r>0)$.   
+In which case, at least one of $p,r$ has to be negative.  
+
 $(2)$ $(1 - p \cdot r<0) \leftrightarrow (1 < p \cdot r) \text{ }\leftrightarrow\text{ } (p>0 \wedge \text{ } r>0) \vee (p<0 \wedge \text{ } r<0)$,  
-but since $r+p<0$, then at least one of $p,r$ has to be negative, so the initial $p,q,r<0$ cannot happen.
+but since $r+p<0$, then at least one of $p,r$ has to be negative.  
   
-So the only occurance is $p,r>0, \text{ } q>0$.  
+This means the initial $p,q,r<0$ cannot happen.
+  
+So the only occurance is $p,r<0, \text{ } q>0$.  
   
   
   
