@@ -33,11 +33,9 @@ So the only occurance is $p,r<0, \text{ } q>0$.
   
   
   
-$A = p \cdot \dfrac{1 - p \cdot r}{(r +  p)} \cdot r \rightarrow$  
+
   
-$A = \dfrac{pr \cdot(1 - pr)}{(r +  p)}$
-  
-We also know that $A$ is an integer, so $pr \cdot(1 - pr) \equiv 0 \pmod{r+p}$ must occur. 
+Looking at $\dfrac{1 - p \cdot r}{(r +  p)} = q$, and by knowing that $q$ is an integer, $1 - pr \equiv 0 \pmod{r+p}$ must occur.
 
 ```python
 Text
