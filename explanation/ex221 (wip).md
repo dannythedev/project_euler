@@ -12,16 +12,18 @@ $1 = q \cdot(r +  p) + p \cdot r \rightarrow$
 
 $1 - p \cdot r = q \cdot(r +  p) \rightarrow$  
   
-$\dfrac{1 - p \cdot r}{(r +  p)} = q$ , We now know that either:  
+$\dfrac{1 - p \cdot r}{(r +  p)} = q$.  
+We can assume $q>0$ since we are given $A>0$, this is because $A = p \cdot q \cdot r\text{ } \rightarrow\text{ }(p,r<0\wedge\text{ }q>0)\text{ }\vee\text{ }(p,q,r>0)$.  
+Because $q>0$ then for any $n,d$ that make $q=\dfrac{n}{d}$ there must be $n\wedge\text{ }d>0\vee\text{ }n\wedge\text{ }d<0$.  
+This means:    
 $(1) \text{ } (1 - p \cdot r>0)\wedge\text{ }(r + p>0)$ or  
 $(2)\text{ } (1 - p \cdot r<0)\wedge\text{ }(r + p<0)$.  
   
 Since $p,r$ are integers, then   
-$(1)$ can happen if and only if $(1 > p \cdot r) \text{ }\leftrightarrow\text{ } (p>0 \wedge \text{ } r<0) \vee (p<0 \wedge \text{ } r>0)$.   
-$(2)$ can only happen if and only if $(1 < p \cdot r) \text{ }\leftrightarrow\text{ } (p>0 \wedge \text{ } r>0) \vee (p<0 \wedge \text{ } r<0)$, but since $r+p<0$, then the only viable option is that both $p,r<0$.
+$(1)$ $(1 - p \cdot r>0) \leftrightarrow (1 > p \cdot r) \text{ }\leftrightarrow\text{ } (p>0 \wedge \text{ } r<0) \vee (p<0 \wedge \text{ } r>0)$.   
+$(2)$ $(1 - p \cdot r<0) \leftrightarrow (1 < p \cdot r) \text{ }\leftrightarrow\text{ } (p>0 \wedge \text{ } r>0) \vee (p<0 \wedge \text{ } r<0)$,  
+but since $r+p<0$, then at least one of $p,r$ has to be negative, so the initial $p,q,r<0$ cannot happen.
   
-Since $A$ is a positive integer and $A = p \cdot q \cdot r$, than at least one integer $q,p,r$ has to be positive. This also means that either $(p,r<0\wedge\text{ }q>0)\text{ }\vee\text{ }(p,q,r>0)$.  
-But $p,q,r<0$ cannot happen due to the proof of $(1)$ and $(2)$ stating at least one composite of $A$ has to be negative.  
 So the only occurance is $p,r>0, \text{ } q>0$.  
   
   
