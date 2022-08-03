@@ -33,16 +33,6 @@ So the only occurance is $p,r<0, \text{ } q>0$.
   
 Looking at $\dfrac{1 - p \cdot r}{(r +  p)} = q$, and by knowing that $q$ is an integer, $1 - pr \equiv 0 \pmod{r+p}$ must occur.
   
-$\dfrac{1 - p \cdot r}{(r +  p)} = q,\text{ } 1 = {q \cdot r} + {p \cdot r} + {p \cdot q} \rightarrow$  
-  
-$1 = {\dfrac{1 - p \cdot r}{(r +  p)} \cdot r} + (p \cdot r) + {p \cdot \dfrac{1 - p \cdot r}{(r +  p)}} \rightarrow^{^{\cdot (r+p)}}$  
-  
-$(r+p) = (1 - p \cdot r) \cdot r + (p \cdot r)(r+p) + p \cdot (1 - p \cdot r) \rightarrow$  
-  
-$-p-r +r -p\cdot r^{2} +p\cdot r^{2} + p^{2} \cdot r + p - p^{2}\cdot r = 0 \rightarrow$  
-  
-
-
 
 
 ```python
